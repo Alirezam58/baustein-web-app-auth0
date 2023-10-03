@@ -1,0 +1,96 @@
+.login-page{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #FFC625;
+}
+
+.logo{
+    width: 40%;
+    text-align: center;
+    background-color: #FFC625;
+}
+
+.form{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFC625;
+}
+
+.login-form{
+    width: 80%;
+    height: 78vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.login-form h1{
+    font-size: 72px;
+    background-color: #fff;
+}
+.login-form p{
+    background-color: #fff;
+}
+
+input.input{
+    width: 38%;
+    line-height: 32px;;
+    border: none;
+    border-bottom: 1px solid #000;
+    background-color: #fff;
+    text-align: center;
+}
+
+input.input:focus{
+    outline: none;
+    border: none;
+}
+
+.login-form button.btn{
+    margin-top: 150px;
+    width: 30%;
+    font-size: 18px;
+    background-color: #ffc625;
+}
+
+a.forget{
+    text-align: center;
+    margin-top: 20px;
+    width: 30%;
+    background-color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    color: #c2c4c1;
+    cursor: pointer;
+    border-bottom: 1px solid #c2c4c1;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+a.forget:hover{
+    color: #0c0d0c;
+}
+
+.icon{
+    margin-top: 12px;
+    position: absolute;
+    right: 190px;
+    bottom: 125px;
+}
+
+.error-message{
+    color: red;
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 0 5px;
+    margin-top: 5px;
+}
+  
